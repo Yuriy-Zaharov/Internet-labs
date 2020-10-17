@@ -1,0 +1,37 @@
+*{
+	font: Fira Sans;
+	background: #7CBAF9;
+	background:	linear-gradient(to bottom, #7CBAF9, #7FACAC);
+	background-repeat: no-repeat;
+}
+
+body {
+	
+}
+
+:root
+{
+	--header-color: #020275;
+}
+
+#main-header {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 40px 80px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 56px;
+	color: var(--header-color);
+}
+
+#author {
+	display: flex;
+}
+
+.avatar {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background: url(images/Keanu_Reeves.jpg);
+}
